@@ -1,0 +1,1892 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.hemburger{
+    display: none;
+}
+body{
+    background-color: rgb(1, 1, 0);
+    overflow-x: hidden;
+}
+.navbar{
+    min-width: 100vw;
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 3rem;
+}
+.left > img{
+    width: 150px;
+}
+.btn{
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 3em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#select-he{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1em;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px 3px ;
+}
+option{
+    color: black;
+}
+.option{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3em;
+    padding-left: 12px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 3rem;
+}
+.banner{
+    box-shadow: 0px 0px 1px 1px white;
+    /* border: 2px solid #fff; */
+    border-radius:2rem;
+    width: 95%;
+    height: 79vh;
+    margin-left: 2rem;
+    margin-top: 2em;
+}
+.para1{
+ /* z-index: 99; */
+ position: relative;
+ margin-top: -300px;
+ margin-left: 400px;
+}
+.para1 > h1,h2{
+    color: white;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.para3{
+    margin-left: 1.2em;
+}
+.para2{
+    color: white;
+    margin-left: 9em;
+    font-size: 1.2em;
+}
+.banner > img{
+border-radius: 2rem;
+background-color: black;
+opacity: 0.3;
+    
+}
+.getStarted{
+    /* background-color: aqua; */
+    margin-top: 3em;
+    margin-left: 30vw;
+    display: inline-block;
+    color: aliceblue;
+}
+.input-email{
+    margin-top: 1.7em;
+    display: flex;
+    gap:1em;
+}
+.input-email > input{
+min-width: 25vw;
+height: 8vh;
+border-radius: 2em;
+border: 2px solid rgb(127, 126, 126);
+outline: 2px solid #ffffff;
+background: transparent;
+padding-left: 1em;
+font-size: 1.2em;
+color: #ffffff;
+}
+::placeholder{
+    color: gray;
+}
+.btn-started{
+    background-color: red;
+    color: white;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 2em;
+    font-size: 1.5em;
+    font-weight: 4s00;
+    padding-left: .8em;
+}
+.info-netflix{
+    margin-left: 2em;
+    color: gray;
+    font-size: 1em;
+}
+.trading-container{
+    margin-top: 1.5em;
+}
+.trading-container > h1{
+    color: rgb(194, 180, 180);
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-left: 8rem;
+    margin-bottom: .5em;
+  
+}
+.trending-cards{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards > img{
+    width: 190px;
+    height: 250px;
+    border: 2px solid rgb(199, 187, 187);
+    border-radius: 20px;
+}
+.only-netflix{
+    margin-top: -1em;
+}
+.only-netflix > h1{
+    color: rgb(194, 180, 180);
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-left: 8rem;
+    margin-bottom: .5em;
+}
+.more-reasons{
+
+}
+.more-reasons > h1{
+    color: gray;
+    color: rgb(194, 180, 180);
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-left: 8rem;
+    margin-bottom: .5em;
+
+}
+#cards-reasons{
+    border: 2px solid #413e3e;
+    background-color: rgba(53, 53, 53, 0.853);
+    height: 20vh;
+    width: 19.5vw;
+    border-radius: 20px;
+    padding:20px;
+}
+#cards-reasons > h3{
+color: rgb(244, 239, 239);
+font-weight: 800;
+}
+.asked-question{
+    margin-top: -10rem;
+    margin-left: 7.5rem;
+}
+.card-question{
+    width: 91%;
+    background-color: rgba(93, 91, 91, 0.923);
+    border: 1px solid black;
+    height: 10vh;
+    border-radius: 1em;
+    padding:20px;
+    margin-bottom: .5em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    align-items: center;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.card-question:hover{
+    background-color: rgb(125, 119, 119);
+    color: white;
+}
+.asked-question > h1{
+    color: rgb(255, 255, 255);
+    
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: .5em;
+
+
+}
+.plus{
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+.membership{
+    margin-left: 38vw;
+    margin-top: 3rem;
+}
+#btn-membership{
+    background-color: red;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    margin-left: 8vw;
+}
+.membership p{
+    color: white;
+    margin-top: .6em;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+footer{
+    height: 60vh;
+}
+footer h2{
+    font-size: 1.2em;
+    margin-left: 8em;
+    margin-top: 4em;
+    color: rgb(195, 189, 189)
+}
+footer h2 a{
+    color: rgb(195,189,189);
+}
+.fotter-links-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.footer-links li {
+    margin-bottom: 1.5em;
+    
+
+}
+.footer-links li a{
+    color: rgb(224, 216, 216);
+    font-size: .9em;
+}
+ #translate{
+    width: 8vw;
+    margin-top: 3em;
+    margin-left: 14.5vw;
+    border: 1px solid #ccc1c1;
+}
+.india-netflix{
+    color: gray;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 14vw;
+    margin-top: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quarey  */
+
+@media only screen and (max-width:1000px){
+    body{
+        /* background-color: #fff; */
+    }
+    .banner{
+        height: 91vh;
+        margin-left: 1.2rem;
+        margin-top: 1.5em;
+    }
+    .para1{
+     /* z-index: 99; */
+     margin-top: -300px;
+     margin-left: 150px;
+    }
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.5em;
+    }
+    
+    .para2{
+        color: white;
+        margin-left: 3.5em;
+        font-size: 1.2em;
+    }
+
+    .getStarted{
+        /* background-color: aqua; */
+        margin-top: 3em;
+        margin-left: 10vw;
+        display: inline-block;
+        color: aliceblue;
+    }
+    .input-email{
+        margin-left: 5em;
+    }
+    .input-email > input{
+    min-width: 30vw;
+    height: 8vh;
+    border-radius: 1.5em;
+    }
+    ::placeholder{
+        color: gray;
+    }
+    .btn-started{
+        width: 25vw;
+        height: 8vh;
+        border-radius: 1.5em;
+        border: none;
+        font-weight: 400;
+    }
+    .info-netflix{
+        margin-left: none;
+        /* margin-right: 15em; */
+
+    }
+    .trading-container{
+        margin-top: 1.5em;
+    }
+    .trading-container > h1{
+        margin-left: 2rem;
+      
+    }
+    .trending-cards{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    
+    .cards > img{
+        width: 140px;
+        height: 220px;
+        border: 2px solid rgb(199, 187, 187);
+        border-radius: 20px;
+    }
+    .cards-none{
+        /* display: none; */
+    }
+    .only-netflix{
+        margin-top: -6em;
+    }
+    .only-netflix > h1{
+        margin-left: 2rem;
+    }
+    .more-reasons{
+    margin-top: -6em;
+    }
+    .more-reasons > h1{
+        margin-left: 2rem;
+    
+    }
+    .trending-cards{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #cards-reasons{
+        height: 25vh;
+        width: 28vw;
+    }
+    .asked-question{
+        margin-top: -10rem;
+        margin-left: 2%
+    }
+    .card-question{
+        width: 98%;
+    }
+    .card-question:hover{
+        background-color: rgb(125, 119, 119);
+        color: white;
+    }
+    .membership{
+        margin-left: 30vw;
+        margin-top: 2rem;
+    }
+    #btn-membership{
+        background-color: red;
+        color: white;
+        width: 30vw;
+        height: 7vh;
+        margin-left: 8vw;
+    }
+    footer{
+        height: 60vh;
+    }
+    footer h2{
+        margin-left: 4em;
+        
+    }
+     #translate{
+        width: 18vw;
+        margin-top: 2em;
+        margin-left: 10vw;
+        border: 1px solid #ccc1c1;
+    }
+    .india-netflix{
+        margin-bottom: 2em;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:913px){
+    
+    .cards-none{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:750px){
+    
+    /* .navbar{
+        min-width: 100vw;
+        height: 10vh;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } */
+    .left{
+        margin-left: 2rem;
+    }
+    .left > img{
+        width: 150px;
+    }
+    .btn{
+        width: 7.5rem;
+        height: 2.7rem;
+        border-radius: 3em;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+
+    
+    .right{
+        margin-right: 1rem;
+    }
+    .banner{
+        width: 95%;
+        height: 88vh;
+        margin-left: 1.2rem;
+        margin-top: 1em;
+    }
+    .para1{
+     
+     margin-top: -220px;
+     margin-left: 120px;
+    }
+    
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.5em;
+    }
+       
+    .getStarted{
+        /* background-color: aqua; */
+        margin-top: 3em;
+        margin-left: 5vw;
+        display: inline-block;
+        color: aliceblue;
+    } 
+    .input-email{
+        /* margin-topem; */
+        margin-left: 3em;
+    }
+    .input-email > input{
+    min-width: 35vw;
+    }
+    .btn-started{
+        width: 30vw;
+        height: 8vh;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+        
+    .trending-cards{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .cards > img{
+        width: 120px;
+        height: 200px;
+    }
+    .only-netflix{
+        margin-top: -6em;
+    }
+    .only-netflix > h1{
+        color: rgb(194, 180, 180);
+        font-weight: 600;
+        font-size: 2.5em;
+        margin-left: 2rem;
+    }
+    .more-reasons{
+    
+    }
+    .more-reasons > h1{
+        margin-left: 2rem;
+
+    
+    }
+    #cards-reasons{
+        border: 2px solid #413e3e;
+        background-color: rgba(53, 53, 53, 0.853);
+        height: 20vh;
+        width: 25vw;
+        border-radius: 20px;
+        padding:10px;
+    }
+    #cards-reasons > h3{
+    color: rgb(244, 239, 239);
+    font-size: 1.1em;
+    font-weight: 500;
+    }
+
+    .asked-question{
+        margin-top: -10rem;
+        margin-left: 1.5rem;
+    }
+    .card-question{
+        width: 97%;
+       
+        margin-bottom: .8em;
+    
+    }
+    .asked-question > h1{
+        color: rgb(255, 255, 255);
+        
+        font-weight: 600;
+        font-size: 2.5em;
+        margin-bottom: .5em;
+    
+    
+    }
+    .plus{
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    .membership{
+        margin-left: 30vw;
+        margin-top: 3rem;
+    }
+    #btn-membership{
+        width: 25vw;
+        height: 7vh;
+    }
+    .membership p{
+        color: white;
+        margin-top: .6em;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    footer h2{
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+  
+    .fotter-links-card{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+    }
+    .footer-links li {
+        margin-bottom: 1.5em;
+        
+    
+    }
+    .footer-links li a{
+        color: rgb(224, 216, 216);
+        font-size: .9em;
+    }
+     #translate{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 3em;
+        margin-left: 7.5vw;
+    }
+    .india-netflix{
+        margin-left: 8vw;
+    }
+      
+    
+}
+
+@media only screen and (max-width:620px){
+    
+    /* .navbar{
+        min-width: 100vw;
+        height: 10vh;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } */
+    .left{
+        margin-left: 2rem;
+    }
+    .left > img{
+        width: 150px;
+    }
+    .btn{
+        width: 7.5rem;
+        height: 2.7rem;
+        border-radius: 3em;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+
+    
+    .right{
+        margin-right: 1rem;
+    }
+    .banner{
+        width: 95%;
+        height: 350px;
+        margin-left: 1.2rem;
+        margin-top: 1em;
+    }
+    .banner img{
+        width: 100%;
+        height: 350px;
+    }
+    .para1{
+     
+     margin-top: -200px;
+     margin-left: 80px;
+    }
+    
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.5em;
+    }
+       
+    .getStarted{
+        /* background-color: aqua; */
+        margin-top: 3em;
+        margin-left: 5vw;
+        display: inline-block;
+        color: aliceblue;
+    } 
+    .input-email{
+        /* margin-topem; */
+        margin-left: 3em;
+    }
+    .input-email > input{
+    min-width: 35vw;
+    }
+    .btn-started{
+        width: 30vw;
+        height: 8vh;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+        
+    .trending-cards{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .cards > img{
+        width: 110px;
+        height: 180px;
+    }
+    .only-netflix{
+        margin-top: -6em;
+    }
+    .only-netflix > h1{
+        color: rgb(194, 180, 180);
+        font-weight: 600;
+        font-size: 2em;
+        margin-left: 2rem;
+    }
+    .more-reasons{
+    
+    }
+    .more-reasons > h1{
+        margin-left: 2rem;
+        font-size: 2em;
+
+    
+    }
+    #cards-reasons{
+        border: 2px solid #413e3e;
+        background-color: rgba(53, 53, 53, 0.853);
+        height: 20vh;
+        width: 25vw;
+        border-radius: 20px;
+        padding:10px;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #cards-reasons > h3{
+    color: rgb(244, 239, 239);
+    font-size: 1.1em;
+    font-weight: 500;
+    }
+
+    .asked-question{
+        margin-top: -10rem;
+        margin-left: 1.5rem;
+    }
+    .card-question{
+        width: 97%;
+       
+        margin-bottom: .8em;
+    
+    }
+    .asked-question > h1{
+        color: rgb(255, 255, 255);
+        
+        font-weight: 600;
+        font-size: 2em;
+        margin-bottom: .5em;
+    
+    
+    }
+    .plus{
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    .membership{
+        margin-left: 23vw;
+        margin-top: 3rem;
+    }
+    #btn-membership{
+        width: 28vw;
+        height: 8vh;
+    }
+    .membership p{
+        color: white;
+        margin-top: .6em;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-left: -20px;
+    }
+    footer h2{
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+  
+    .fotter-links-card{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+    }
+    .footer-links li {
+        margin-bottom: 1.5em;
+        
+    
+    }
+    .footer-links li a{
+        color: rgb(224, 216, 216);
+        font-size: .9em;
+    }
+     #translate{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 3em;
+        margin-left: 7.5vw;
+    }
+    .india-netflix{
+        margin-left: 8vw;
+    }
+    
+    
+    
+     
+    
+    
+}
+
+@media only screen and (max-width:520px){
+    
+   
+    .left{
+        margin-left: 2rem;
+    }
+    .left > img{
+        width: 150px;
+    }
+    .btn{
+        width: 7.5rem;
+        height: 2.7rem;
+        border-radius: 3em;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+
+    
+    .right{
+        margin-right: 1rem;
+    }
+    .banner{
+        width: 95%;
+        height: 350px;
+        margin-left: 1.2rem;
+        margin-top: 1em;
+    }
+    .banner img{
+        width: 100%;
+        height: 350px;
+    }
+    .para1{
+     
+     margin-top: -200px;
+     margin-left: 80px;
+    }
+    
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.5em;
+    }
+       
+    .getStarted{
+        /* background-color: aqua; */
+        margin-top: 3em;
+        margin-left: 5vw;
+        display: inline-block;
+        color: aliceblue;
+    } 
+    .input-email{
+        /* margin-topem; */
+        margin-left: 3em;
+    }
+    .input-email > input{
+    min-width: 35vw;
+    }
+    .btn-started{
+        width: 30vw;
+        height: 8vh;
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+        
+    .trending-cards{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .cards > img{
+        width: 110px;
+        height: 180px;
+    }
+    .card-550{
+        display: none;
+    }
+    .only-netflix{
+        margin-top: -6em;
+    }
+    .only-netflix > h1{
+        color: rgb(194, 180, 180);
+        font-weight: 600;
+        font-size: 2em;
+        margin-left: 2rem;
+    }
+    .more-reasons{
+    
+    }
+    .more-reasons > h1{
+        margin-left: 2rem;
+        font-size: 2em;
+
+    
+    }
+    #cards-reasons{
+        border: 2px solid #413e3e;
+        background-color: rgba(53, 53, 53, 0.853);
+        height: 20vh;
+        width: 25vw;
+        border-radius: 20px;
+        padding:10px;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #cards-reasons > h3{
+    color: rgb(244, 239, 239);
+    font-size: 1.1em;
+    font-weight: 500;
+    }
+
+    .asked-question{
+        margin-top: -10rem;
+        margin-left: 1.5rem;
+    }
+    .card-question{
+        width: 97%;
+       
+        margin-bottom: .8em;
+    
+    }
+    .asked-question > h1{
+        color: rgb(255, 255, 255);
+        
+        font-weight: 600;
+        font-size: 2em;
+        margin-bottom: .5em;
+    
+    
+    }
+    .plus{
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    .membership{
+        margin-left: 23vw;
+        margin-top: 3rem;
+    }
+    #btn-membership{
+        width: 28vw;
+        height: 8vh;
+    }
+    .membership p{
+        color: white;
+        margin-top: .6em;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-left: -20px;
+    }
+    footer h2{
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+  
+    .fotter-links-card{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+    }
+    .footer-links li {
+        margin-bottom: 1.5em;
+        
+    
+    }
+    .footer-links li a{
+        color: rgb(224, 216, 216);
+        font-size: .9em;
+    }
+     #translate{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 3em;
+        margin-left: 7.5vw;
+    }
+    .india-netflix{
+        margin-left: 8vw;
+    }
+    
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:520px){
+    
+    .navbar{
+        min-width: 100vw;
+        height: 10vh;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6em;
+    }
+    .left{
+        margin-left: 1.2rem;
+    }
+    .left > img{
+        width: 130px;
+    }
+    .btn{
+        width: 7rem;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        margin-left: 1.5rem;
+        margin-top: 1em;
+    }
+    .banner img{
+        width: 100%;
+        height: 300px;
+    }
+
+    
+    .right{
+        margin-right: 0rem;
+    }
+    
+    .para1{
+     
+     margin-top: -200px;
+     margin-left: 20px;
+    }
+    
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.5em;
+    }
+       
+    .input-email{
+        /* margin-topem; */
+        margin-left: 2.8em;
+    }
+    .input-email > input{
+    min-width: 35vw;
+    }
+    .btn-started{
+        width: 25vw;
+        height: 8vh;
+        font-size: 1em;
+        font-weight: 500;
+    }
+        
+    .trending-cards{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 1.5em;
+    }
+    
+     .cards > img{
+        width: 110px;
+        height: 180px;
+    }
+     .card-550{
+        display: none;
+    }
+    .only-netflix{
+        margin-top: -6em;
+    }
+    .only-netflix > h1{
+        color: rgb(194, 180, 180);
+        font-weight: 600;
+        font-size: 2em;
+        margin-left: 2rem;
+    }
+    .more-reasons{
+    
+    } 
+     .more-reasons > h1{
+        margin-left: 2rem;
+        font-size: 2em; 
+    
+    }
+
+    #cards-reasons{
+        border: 2px solid #413e3e;
+        background-color: rgba(53, 53, 53, 0.853);
+        height: 20vh;
+        width: 25vw;
+        border-radius: 20px;
+        padding:10px;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #cards-reasons > h3{
+    color: rgb(244, 239, 239);
+    font-size: 1.1em;
+    font-weight: 500;
+    }
+
+    .asked-question{
+        margin-top: -10rem;
+        margin-left: 1.5rem;
+    }
+    .card-question{
+        width: 100%;
+       
+        margin-bottom: .8em;
+    
+    }
+    .asked-question > h1{
+        color: rgb(255, 255, 255);
+        
+        font-weight: 600;
+        font-size: 2em;
+        margin-bottom: .5em;
+    
+    
+    }
+    .plus{
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    .membership{
+        margin-left: 23vw;
+        margin-top: 3rem;
+    }
+    #btn-membership{
+        width: 28vw;
+        height: 8vh;
+    }
+    .membership p{
+        color: white;
+        margin-top: .6em;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-left: -20px;
+    }
+    footer h2{
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+  
+    .fotter-links-card{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+    }
+    .footer-links li {
+        margin-bottom: 1.5em;
+        
+    
+    }
+    .footer-links li a{
+        color: rgb(224, 216, 216);
+        font-size: .9em;
+    }
+     #translate{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 3em;
+        margin-left: 7.5vw;
+    }
+    .india-netflix{
+        margin-left: 8vw;
+    }
+    
+    
+    
+     
+    
+    
+}
+@media only screen and (max-width:490px){
+    
+ 
+    .hemburger i {
+    display: inline;
+    }
+    
+    .banner{
+        width: 99%;
+        height: 300px;
+        margin-left: 1.35rem;
+        margin-top: 1em;
+    }
+    .banner img{
+        width: 100%;
+        height: 300px;
+    }
+
+    
+    .right{
+        margin-right: 0rem;
+        display: none;
+    }
+
+  
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.5em;
+    }
+       
+    .input-email{
+        /* margin-topem; */
+        margin-left: 2.8em;
+    }
+    .input-email > input{
+    min-width: 35vw;
+    }
+    .btn-started{
+        width: 30vw;
+        height: 8vh;
+        font-size: 1em;
+        font-weight: 500;
+    }
+        
+    .trending-cards{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 1em;
+    }
+    
+     .cards > img{
+        width: 110px;
+        height: 180px;
+    }
+     .card-550{
+        display: none;
+    }
+    .only-netflix{
+        margin-top: -6em;
+    }
+    .only-netflix > h1{
+        color: rgb(194, 180, 180);
+        font-weight: 600;
+        font-size: 2em;
+        margin-left: 2rem;
+    }
+    .more-reasons{
+    
+    } 
+     .more-reasons > h1{
+        margin-left: 2rem;
+        font-size: 2em; 
+    
+    }
+
+    #cards-reasons{
+        border: 2px solid #413e3e;
+        background-color: rgba(53, 53, 53, 0.853);
+        height: 20vh;
+        width: 25vw;
+        border-radius: 20px;
+        padding:10px;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #cards-reasons > h3{
+    color: rgb(244, 239, 239);
+    font-size: 1.1em;
+    font-weight: 500;
+    }
+
+    .asked-question{
+        margin-top: -10rem;
+        margin-left: 1.5rem;
+    }
+    .card-question{
+        width: 100%;
+       
+        margin-bottom: .8em;
+    
+    }
+    .asked-question > h1{
+        color: rgb(255, 255, 255);
+        
+        font-weight: 600;
+        font-size: 2em;
+        margin-bottom: .5em;
+    
+    
+    }
+    .plus{
+        color: #fff;
+        font-size: 2.5em;
+        font-weight: 300;
+    }
+    .membership{
+        margin-left: 23vw;
+        margin-top: 3rem;
+    }
+    #btn-membership{
+        width: 28vw;
+        height: 8vh;
+    }
+    .membership p{
+        color: white;
+        margin-top: .6em;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-left: -20px;
+    }
+    footer h2{
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+  
+    .fotter-links-card{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+    }
+    .footer-links li {
+        margin-bottom: 1.5em;
+        
+    
+    }
+    .footer-links li a{
+        color: rgb(224, 216, 216);
+        font-size: .9em;
+    }
+     #translate{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 3em;
+        margin-left: 7.5vw;
+    }
+    .india-netflix{
+        margin-left: 8vw;
+    }
+    
+    
+    
+     
+    
+    
+}
+@media only screen and (max-width:460px){
+    
+ 
+    .hemburger i {
+    display: inline;
+    margin-right: .5em;
+    }
+   
+    .banner{
+        width: 100%;
+        height: 300px;
+        margin-left: .1rem;
+        margin-top: 1em;
+    }
+    .banner img{
+        width: 100%;
+        height: 300px;
+    }
+
+    
+
+    .para1{
+     
+     margin-top: -200px;
+     margin-left: 40px;
+    }
+     
+    .para1 > h1,h2{
+        color: white;
+        font-size: 2.2em;
+    }
+    .para2{
+        margin-left: 2em;
+    } 
+       
+    .input-email{
+        /* margin-topem; */
+        margin-left: 2em;
+    }
+    .getStarted{
+        margin-left: -1em;
+    }
+
+    .btn-started{
+        width: 30vw;
+    }
+    .trending-cards{
+        width: 100%;
+        gap: 5px;
+        margin-left: .2em;
+    }
+    
+     .more-reasons > h1{
+        margin-left: 2rem;
+        font-size: 2em; 
+    
+    }
+
+    #cards-reasons{
+        border: 2px solid #413e3e;
+        background-color: rgba(53, 53, 53, 0.853);
+        height: 25vh;
+        width: 25vw;
+        border-radius: 20px;
+        padding:10px;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    }
+    #cards-reasons > h3{
+    color: rgb(244, 239, 239);
+    font-size: 1.1em;
+    font-weight: 500;
+    }
+
+    .asked-question{
+        margin-top: -8rem;
+        margin-left: .5rem;
+    }
+    }
+    .asked-question > h1{
+        font-size: 1.5em;
+    
+    
+    }
+    .membership{
+        margin-left: 18vw;
+        margin-top: 3rem;
+    }
+    #btn-membership{
+        width: 35vw;
+        height: 8vh;
+        margin-left: 3.5em;
+    }
+    .membership p{
+        color: white;
+        margin-top: .6em;
+        font-weight: 500;
+        font-size: 1.2em;
+        margin-left: -20px;
+    }
+    footer h2{
+        font-size: 1.1em;
+        margin-left: 1.2em;
+    }
+  
+    .fotter-links-card{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    .footer-links li {
+        margin-bottom: 1.5em;
+        
+    
+    }
+    .footer-links li a{
+        color: rgb(224, 216, 216);
+        font-size: .9em;
+    }
+     #translate{
+        width: 35vw;
+        height: 8vh;
+        margin-top: 3em;
+        margin-left: 7.5vw;
+    }
+    .india-netflix{
+        margin-left: 8vw;
+    }
+
+
+    
+    @media only screen and (max-width:440px){
+    
+        .hemburger{
+            display: inline;
+            color: #fff;
+            font-size: 2.5em;
+        }
+       
+        .banner{
+            width: 100%;
+            height: 300px;
+            margin-left: .1rem;
+            margin-top: 1em;
+        }
+        .banner img{
+            width: 100%;
+            height: 300px;
+        }
+    
+        
+    
+        .para1{
+         
+         margin-top: -200px;
+         margin-left: 40px;
+        }
+         
+        .para1 > h1,h2{
+            color: white;
+            font-size: 2.2em;
+        }
+        .para2{
+            margin-left: 2em;
+        } 
+           
+        .input-email{
+            /* margin-topem; */
+            margin-left: 1.3em;
+        }
+        .getStarted{
+            margin-left: -1em;
+        }
+    
+        .btn-started{
+            width: 30vw;
+        }
+        .trending-cards{
+            width: 100%;
+            gap: 5px;
+            margin-left: .2em;
+        }
+        
+         .more-reasons > h1{
+            margin-left: 2rem;
+            font-size: 2em; 
+        
+        }
+    
+        #cards-reasons{
+            border: 2px solid #413e3e;
+            background-color: rgba(53, 53, 53, 0.853);
+            height: 25vh;
+            width: 25vw;
+            border-radius: 20px;
+            padding:10px;
+            flex-wrap: wrap;
+            word-wrap: break-word;
+        }
+        #cards-reasons > h3{
+        color: rgb(244, 239, 239);
+        font-size: 1.1em;
+        font-weight: 500;
+        }
+    
+        .asked-question{
+            margin-top: -8rem;
+            margin-left: .5rem;
+        }
+        }
+        .asked-question > h1{
+            font-size: 1.5em;
+        
+        
+        }
+        .membership{
+            margin-left: 18vw;
+            margin-top: 3rem;
+        }
+        #btn-membership{
+            width: 20vw;
+            height: 8vh;
+            margin-left: 15.1em;
+        }
+        .membership p{
+            color: white;
+            margin-top: .6em;
+            font-weight: 500;
+            font-size: 1.2em;
+            margin-left:18vw;
+        }
+        footer h2{
+            font-size: 1.1em;
+            margin-left: 12em;
+        }
+      
+        .fotter-links-card{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 10vh;
+            margin-left: .5em;
+            margin-right: .5em;
+        }
+        .footer-links li {
+            margin-bottom: 1.5em;
+            
+        
+        }
+        .footer-links li a{
+            color: rgb(224, 216, 216);
+            font-size: .9em;
+        }
+         #translate{
+            width: 10vw;
+            height: 6vh;
+            margin-top: 3em;
+            margin-left: 13.5vw;
+        }
+        .india-netflix{
+            margin-left: 13.5vw;
+        }
+        @media only screen and (max-width:420px){
+            .hemburger{
+                display: inline;
+                color: #fff;
+                font-size: 2.5em;
+            }
+           
+            .input-email{
+                display: none;
+            }
+            .hemburger i {
+                display: inline;
+                margin-right: .5em;
+                }
+             
+                .banner{
+                    width: 98%;
+                    height: 250px;
+                    margin-left: .3rem;
+                    margin-top: 1em;
+                }
+                .banner img{
+                    width: 100%;
+                    height: 250px;
+                }
+            
+                .para1{
+                 
+                 margin-top: -150px;
+                 margin-left: 50px;
+                }
+                 
+                .para1 > h1,h2{
+                    color: white;
+                    font-size: 1.8em;
+                }
+                .para2{
+                    margin-left: 1.8em;
+                    font-size: 1em;
+                } 
+              
+
+                .trending-cards{
+                    width: 100%;
+                    height: 50vh;
+                    display: flex;
+                    justify-content: center;
+                    gap: 2px;
+                }
+                .trading-container h1{
+                    font-size: 2em;
+                    margin-top: -.5em;
+                }
+
+                
+                .cards > img{
+                    width: 90px;
+                    height: 150px;
+                    border: 1px solid rgb(199, 187, 187);
+                    border-radius: 20px;
+                }
+                .only-netflix{
+                    margin-top: -9em;
+                }
+                .only-netflix > h1{
+                    color: rgb(194, 180, 180);
+                    font-weight: 600;
+                    font-size: 2em;
+                    margin-left: 2rem;
+                    margin-bottom: .2em;
+                }
+                .more-reasons{
+                    margin: none;
+                }
+                .more-reasons > h1{
+                    margin-left: 1.8rem;
+                    font-size: 1.5em;
+                    margin-top: -5em;
+            
+                
+                }
+                #cards-reasons{
+                    border: 1px solid #413e3e;
+                    background-color: rgba(53, 53, 53, 0.853);
+                    height: 20vh;
+                    width: 30vw;
+                    border-radius: 20px;
+                    padding:6px;
+                    flex-wrap: wrap;
+                    word-wrap: break-word;
+
+                }
+                #cards-reasons > h3{
+                color: rgb(244, 239, 239);
+                font-size: 1em;
+                font-weight: 400;
+                }
+                    .anytime{
+                        display: none;
+                    }
+                    .membership p{
+                        font-size: 1.1em;
+                        margin-left: -1em;
+                    }
+    
+                    .asked-question h1{
+                        font-size: 1.5em;
+            
+                    }
+        }
+                @media only screen and (max-width:412px){
+
+                    .hemburger{
+                        display: inline;
+                        color: #fff;
+                        font-size: 2.5em;
+                    }
+            .input-email{
+                display: none;
+            }
+            .hemburger i {
+                display: inline;
+                margin-right: .5em;
+                }
+               
+                .banner{
+                    width: 98%;
+                    height: 250px;
+                    margin-left: .3rem;
+                    margin-top: 1em;
+                }
+                .banner img{
+                    width: 100%;
+                    height: 250px;
+                }
+            
+                .para1{
+                 
+                 margin-top: -150px;
+                 margin-left: 50px;
+                }
+                 
+                .para1 > h1,h2{
+                    color: white;
+                    font-size: 1.8em;
+                }
+                .para2{
+                    margin-left: 1.8em;
+                    font-size: 1em;
+                } 
+              
+
+                .trending-cards{
+                    width: 100%;
+                    height: 50vh;
+                    display: flex;
+                    justify-content: center;
+                    gap: 8px;
+                }
+                .trading-container h1{
+                    font-size: 2em;
+                    margin-top: -.5em;
+                }
+
+                
+                .cards > img{
+                    width: 92px;
+                    height: 150px;
+                    border: 1px solid rgb(199, 187, 187);
+                    border-radius: 20px;
+                }
+                .only-netflix{
+                    margin-top: -15em;
+                }
+             
+                .more-reasons > h1{
+                    margin-left: 1.8rem;
+                    font-size: 1.5em;
+                    margin-top: -10em;
+            
+                
+                }
+
+                #cards-reasons{
+                    border: 1px solid #413e3e;
+                    background-color: rgba(53, 53, 53, 0.853);
+                    height: 15vh;
+                    width: 31vw;
+
+                }
+                #cards-reasons > h3{
+                color: rgb(244, 239, 239);
+                font-size: 1em;
+                font-weight: 400;
+                }
+        
+                    .membership p{
+                        font-size: 1.1em;
+                        margin-left: -1em;
+                    }
+    
+                    .asked-question h1{
+                        font-size: 1.5em;
+                        margin-top: -10.5em;
+            
+                    }
+                    #btn-membership{
+                        width: 55vw;
+                        height: 6vh;
+                        margin-left: 1.1em;
+                    }
+                    .membership p{
+                        color: white;
+                        margin-top: .6em;
+                        font-weight: 500;
+                        font-size: 1.2em;
+                        margin-left:-35px;
+                    }
+                    footer h2{
+                        font-size: 1.1em;
+                        margin-left: 3em;
+                    }
+                  
+                   
+                    
+                     #translate{
+                        width: 30vw;
+                        height: 6vh;
+                        margin-top: 3em;
+                        margin-left: 13.5vw;
+                    }
+                    .india-netflix{
+                        margin-left: 13.5;
+                    }
+        }
+
+        
